@@ -14,7 +14,7 @@ public class Triangle_based_on_side_lengths {
         System.out.println("Enter length for L3");
         int L3 = sc.nextInt();
 
-        if (L1 == (L2 = L3)) {
+        if (L1 == L2 &  L2 == L3 & L3 == L1) {
             System.out.println("Triangle is equilateral");
         }
         else if (L1 == L2 & L2 == L3) {
