@@ -4,17 +4,15 @@ import java.util.Scanner;
 
 public class Triangle_based_on_side_lengths {
     public static void main(String[] args) {
-        Scanner Side1 = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter length for L1");
-        int L1 = Side1.nextInt();
+        int L1 = sc.nextInt();
 
-        Scanner Side2 = new Scanner(System.in);
         System.out.println("Enter length for L2");
-        int L2 = Side2.nextInt();
+        int L2 = sc.nextInt();
 
-        Scanner Side3 = new Scanner(System.in);
         System.out.println("Enter length for L3");
-        int L3 = Side3.nextInt();
+        int L3 = sc.nextInt();
 
         if (L1 == (L2 = L3)) {
             System.out.println("Triangle is equilateral");
